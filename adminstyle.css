@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif; /* Specify a preferred font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background color */
+  }
+  
+  header {
+    background-color: #333; /* Dark header background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em; /* Increase heading size */
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  nav {
+    background-color: #292929; /* Darker background for navigation */
+    color: #fff; /* White text color */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Horizontal alignment */
+    justify-content: space-between; /* Distribute links evenly */
+  }
+  
+  nav li {
+    padding: 10px 20px; /* Add padding between links */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  nav a:hover {
+    background-color: #1a1a1a; /* Lighter background on hover */
+    color: #ddd; /* Slightly darker text on hover */
+  }
+  
+  main {
+    padding: 20px; /* Add padding to content area */
+  }
+  
+  .user-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info p {
+    margin: 0;
+  }
+  
+  .user-info button {
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30%;
+    
+  }
+  
+  .user-info button:hover {
+    background-color: #c62828;
+  }
+  
+  
+  
+  .content-area {
+    background-color: #fff; /* White background for sections */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 20px;
+    margin-bottom: 20px; /* Add space between sections */
+  }
+  
+  button {
+    background-color: #333; /* Dark background for button */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Indicate clickable element */
+  }
+  
+  button:hover {
+    background-color: #292929;
+  }
